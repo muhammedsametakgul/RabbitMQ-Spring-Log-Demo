@@ -30,9 +30,15 @@ My main goal in this project is to use RabbitMQ with Spring Boot and make a simp
       ```bash
    docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 
-3. **Run the Application**
+3. **Edit the path the log file will be saved from application.yml**
 
-4. **Test the project with Postman and RabbitMQ Console**
+      Please change the current  path with the path you want the app to save the file
+    ```bash
+    path: C:/Users/{username}/Desktop/log.txt
+    
+5. **Run the Application**
+
+6. **Test the project with Postman and RabbitMQ Console**
 
 
    ```bash
