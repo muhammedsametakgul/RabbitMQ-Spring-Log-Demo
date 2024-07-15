@@ -44,12 +44,12 @@ My main goal in this project is to use RabbitMQ with Spring Boot and make a simp
    Pass : guest
 
   
-    For Postman ->
+   For Postman ->
    
-    curl --location --request POST 'http://localhost:8080/logs' \--header 'Content-Type: application/json' \--data-raw '{
-    "level": "INFO",
-    "message": "This is a test log message",
-    "timestamp": "2024-07-15T10:00:00"}' ```
+   curl --location --request POST 'http://localhost:8080/logs' \--header 'Content-Type: application/json' \--data-raw '{
+   "level": "INFO",
+   "message": "This is a test log message",
+   timestamp": "2024-07-15T10:00:00"}' ```
 
 
 
